@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+mat-toolbar-row h1{
+  font-family: 'Zen Dots', cursive;
+  font-size: 25px;
+  margin-left: 10px;
+}
+.navbar{
+  height: 10vh;
+  background:linear-gradient(120deg,black,grey);
+}
+.title{
+  color: black;
+  background-color: rgb(84, 195, 222);
+  padding: 0 10px;
+}
+.sidenav{
+  width: 230px;
+}
+
+.sidenav-header h3{
+  font-family: 'Zen Dots', cursive;
+  font-size: 20px;
+  margin: 10px 70px;
+}
+.headerimg{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin: 10px 50px;
+}
+
+.main-content{
+  height: 90vh;
+}
